@@ -1,0 +1,28 @@
+{
+    "name": "acczefly/oauth2-qq",
+    "description": "QQ.COM Provider for the OAuth 2.0 Client, provides support for the PHP League's OAuth 2.0 Client.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peng Chen",
+            "email": "i@mail.chenpeng.info",
+            "homepage": "http://chenpeng.info"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication",
+        "qq"
+    ],
+    "require": {
+        "league/oauth2-client": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acczefly\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
