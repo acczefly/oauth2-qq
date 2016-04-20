@@ -35,16 +35,6 @@ class QQUser implements ResourceOwnerInterface
     }
 
     /**
-     * Get avatar image URL.
-     *
-     * @return string|null
-     */
-    public function getAvatar()
-    {
-        return $this->response['figureurl_qq_1'] ?: null;
-    }
-
-    /**
      * Get user data as an array.
      *
      * @return array

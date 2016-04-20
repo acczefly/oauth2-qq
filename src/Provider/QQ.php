@@ -14,6 +14,11 @@ class QQ extends AbstractProvider
 
     protected $openid;
 
+    public function __get($name)
+    {
+        return $this->$name;
+    }
+
     public function getBaseAuthorizationUrl()
     {
         return 'https://graph.qq.com/oauth2.0/authorize';
