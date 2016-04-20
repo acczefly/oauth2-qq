@@ -19,11 +19,6 @@ class QQ extends AbstractProvider
         return $this->$name;
     }
 
-    public function __call($name, $arguments)
-    {
-        return $this->$name($arguments);
-    }
-
     public function getBaseAuthorizationUrl()
     {
         return 'https://graph.qq.com/oauth2.0/authorize';
