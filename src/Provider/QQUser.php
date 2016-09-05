@@ -19,9 +19,9 @@ class QQUser implements ResourceOwnerInterface
         $this->response = $response;
     }
 
-    public function getId()
+    public function __get($name)
     {
-        return $this->response['id'];
+        return $this->response[$name];
     }
 
     /**
