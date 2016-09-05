@@ -24,6 +24,11 @@ class QQUser implements ResourceOwnerInterface
         return $this->response[$name];
     }
 
+    public function getId()
+    {
+        return null;
+    }
+
     /**
      * Get perferred display name.
      *
